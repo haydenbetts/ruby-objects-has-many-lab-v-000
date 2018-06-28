@@ -37,7 +37,7 @@ class Artist
   # CLASS METHODS SECTION
 
   def self.song_count
-    @@all_songs.length
+    self.song_database.length
   end
 
 
