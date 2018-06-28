@@ -11,10 +11,6 @@ class Artist
     @songs = []
   end
 
-  def self.song_database
-    @@all_songs
-  end
-
   # ADD SONGS SECTION
 
   def add_song(song)
