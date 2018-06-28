@@ -33,7 +33,7 @@ class Author
   # CLASS METHODS SECTION
 
   def self.add_post_to_database(post)
-    song_database << song
+    post_database << post
   end
 
   def self.song_count
