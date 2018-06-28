@@ -36,8 +36,8 @@ class Author
     post_database << post
   end
 
-  def self.song_count
-    song_database.length
+  def self.post_count
+    post_database.length
   end
 
 
