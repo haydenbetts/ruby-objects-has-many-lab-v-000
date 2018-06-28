@@ -12,8 +12,8 @@ class Post
     self.class.post_database << self
   end
 
-  def artist_name
-    self.artist ? self.artist.name : nil
+  def author_name
+    self.author ? self.artist.name : nil
   end
 
 end
