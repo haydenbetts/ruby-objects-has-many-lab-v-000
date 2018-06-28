@@ -1,7 +1,7 @@
 require_relative "./post"
 require 'pry'
 
-class Artist
+class Author
     attr_accessor :name, :songs
 
     @@all_songs = []
@@ -12,7 +12,7 @@ class Artist
 
   def initialize(name)
     @name = name
-    @songs = []
+    @posts = []
   end
 
   # ADD SONGS SECTION
