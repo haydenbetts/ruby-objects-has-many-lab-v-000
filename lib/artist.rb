@@ -16,7 +16,6 @@ class Artist
   def add_song(song)
     song.artist = self
     self.songs << song
-    binding.pry
     self.class.add_song_to_database(song)
   end
 
