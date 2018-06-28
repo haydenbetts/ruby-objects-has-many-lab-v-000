@@ -17,7 +17,7 @@ class Author
 
   # ADD SONGS SECTION
 
-  def add_song(song)
+  def add_post(song)
     song.artist = self
     self.songs << song
     self.class.add_song_to_database(song)
