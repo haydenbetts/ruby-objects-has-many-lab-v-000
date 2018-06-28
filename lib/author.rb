@@ -32,7 +32,7 @@ class Author
 
   # CLASS METHODS SECTION
 
-  def self.add_song_to_database(song)
+  def self.add_post_to_database(post)
     song_database << song
   end
 
