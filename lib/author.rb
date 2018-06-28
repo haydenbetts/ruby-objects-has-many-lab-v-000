@@ -4,10 +4,10 @@ require 'pry'
 class Author
     attr_accessor :name, :songs
 
-    @@all_songs = []
+    @@all_posts = []
 
-  def self.song_database
-    @@all_songs
+  def self.post_database
+    @@all_posts
   end
 
   def initialize(name)
