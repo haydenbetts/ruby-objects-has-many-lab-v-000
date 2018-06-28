@@ -4,7 +4,9 @@ require 'pry'
 class Artist
     attr_accessor :name, :songs
 
+  self.song_database
     @@all_songs = []
+  end
 
   def initialize(name)
     @name = name
