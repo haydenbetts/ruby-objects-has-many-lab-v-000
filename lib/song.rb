@@ -3,6 +3,10 @@ class Song
 
   @@all = []
 
+  def self.song_database
+    @@all
+  end
+
   def initialize(name)
     @name = name
     @@all << self
