@@ -15,7 +15,7 @@ class Author
     @posts = []
   end
 
-  # ADD SONGS SECTION
+  # ADD POSTS SECTION
 
   def add_post(song)
     song.artist = self
