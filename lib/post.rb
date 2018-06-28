@@ -8,8 +8,8 @@ class Post
   end
 
   def initialize(title)
-    @title = name
-    self.class.song_database << self
+    @title = title
+    self.class.post_database << self
   end
 
   def artist_name
