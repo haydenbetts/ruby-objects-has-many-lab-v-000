@@ -31,7 +31,7 @@ class Artist
   end
 
   def self.add_song_to_database(song)
-    self.class.song_database << song
+    self.song_database << song
   end
 
   # CLASS METHODS SECTION
