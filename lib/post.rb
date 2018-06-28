@@ -1,9 +1,9 @@
 class Post
-  attr_accessor :name, :artist
+  attr_accessor :title, :author
 
   @@all = []
 
-  def self.song_database
+  def self.post_database
     @@all
   end
 
