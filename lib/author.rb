@@ -40,5 +40,4 @@ class Author
     post_database.length
   end
 
-
 end
