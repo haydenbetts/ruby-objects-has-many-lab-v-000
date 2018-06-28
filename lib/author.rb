@@ -23,7 +23,7 @@ class Author
     self.class.add_post_to_database(post)
   end
 
-  def add_song_by_name(name)
+  def add_post_by_title(name)
     song = Song.new(name)
     song.artist = self
     self.songs << song
