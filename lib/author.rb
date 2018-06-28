@@ -27,7 +27,7 @@ class Author
     post = Post.new(title)
     post.author = self
     self.posts << post
-    self.class.add_song_to_database(song)
+    self.class.add_post_to_database(post)
   end
 
   # CLASS METHODS SECTION
