@@ -30,11 +30,11 @@ class Artist
     self.class.add_song_to_database(song)
   end
 
+  # CLASS METHODS SECTION
+
   def self.add_song_to_database(song)
     song_database << song
   end
-
-  # CLASS METHODS SECTION
 
   def self.song_count
     song_database.length
