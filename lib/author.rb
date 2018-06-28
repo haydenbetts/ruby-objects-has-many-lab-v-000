@@ -2,7 +2,7 @@ require_relative "./post"
 require 'pry'
 
 class Author
-    attr_accessor :name, :songs
+    attr_accessor :name, :posts
 
     @@all_posts = []
 
@@ -17,7 +17,7 @@ class Author
 
   # ADD POSTS SECTION
 
-  def add_post(song)
+  def add_post(post)
     song.artist = self
     self.songs << song
     self.class.add_song_to_database(song)
