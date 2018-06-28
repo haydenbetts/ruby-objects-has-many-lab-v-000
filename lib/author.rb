@@ -23,9 +23,9 @@ class Author
     self.class.add_post_to_database(post)
   end
 
-  def add_post_by_title(name)
-    post = Post.new(name)
-    song.artist = self
+  def add_post_by_title(title)
+    post = Post.new(title)
+    post.author = self
     self.songs << song
     self.class.add_song_to_database(song)
   end
