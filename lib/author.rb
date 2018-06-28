@@ -18,8 +18,8 @@ class Author
   # ADD POSTS SECTION
 
   def add_post(post)
-    song.artist = self
-    self.songs << song
+    post.author = self
+    self.posts << song
     self.class.add_song_to_database(song)
   end
 
